@@ -17,6 +17,14 @@ public class Main {
 		// TODO : Write code below
 		//test
 		//---------------------------------------
+		
+		
+		for(int i = from ; i <= to ; i++){
+			if(i%3 == 0 | i%5 == 0) {
+				sum += i;
+			}
+		}
+		
 		return sum;
 	}
 
