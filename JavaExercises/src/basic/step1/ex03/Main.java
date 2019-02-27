@@ -3,7 +3,7 @@ package basic.step1.ex03;
 public class Main {
 
 	public static void main(String[] args) {
-		int N = 3;
+		int N = 7;
 		
 		printStar(N);
 	}
@@ -12,7 +12,14 @@ public class Main {
 		//---------------------------------------
 		// TODO : Write code below
 		
-		System.out.println("*");
+		for(int x=0; x<N; x++) {
+			String line="";
+			for(int y=0; y<=x; y++) {
+				line += "*";
+			}
+			System.out.println(line);
+		}
+
 		
 		//---------------------------------------
 	}
